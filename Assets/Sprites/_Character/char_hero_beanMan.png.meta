@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b76900320abed1743a0e504804e04ff9
+guid: f4130bd4767568746abdbafbfaf87b91
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -80,7 +80,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: char_hero_beanMan_0
+      name: "\u8EAB\u4F53"
       rect:
         serializedVersion: 2
         x: 79
@@ -94,14 +94,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dca1f29fa6a34c4f8dee81ac5162ff3
-      internalID: 1686348565
+      spriteID: 52702a3be077a7b47a471a0aac0fb7b2
+      internalID: -1575938178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_hero_beanMan_1
+      name: "\u5927\u70AE"
       rect:
         serializedVersion: 2
         x: 301
@@ -115,14 +115,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 114ff6e53b0b43a4fade4f09bec3986c
-      internalID: 53779470
+      spriteID: 34833977927ebc44e8dda20165f5fabe
+      internalID: 1388592590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_hero_beanMan_2
+      name: "\u53F3\u773C"
       rect:
         serializedVersion: 2
         x: 741
@@ -136,14 +136,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30054489170c21548bbdef49658fe9e3
-      internalID: -1465542024
+      spriteID: 7502a819758246a42ac1890270d68a54
+      internalID: 1904190801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_hero_beanMan_3
+      name: "\u5DE6\u773C"
       rect:
         serializedVersion: 2
         x: 835
@@ -157,14 +157,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8307704005b60784babc94a4b6ef8d71
-      internalID: -72562292
+      spriteID: 7a636cbb59a53c64782608385c056d82
+      internalID: 1280110744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_hero_beanMan_4
+      name: "\u53F3\u624B"
       rect:
         serializedVersion: 2
         x: 18
@@ -178,14 +178,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc87d51cf7da8ca48ab4c249d9d7d57d
-      internalID: 587808574
+      spriteID: 63a24ab0738cebf4b872247e41195b97
+      internalID: 1651333874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_hero_beanMan_5
+      name: "\u5DE6\u624B"
       rect:
         serializedVersion: 2
         x: 337
@@ -199,14 +199,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3884281508cc3ef4bb69026e1601d030
-      internalID: 365836833
+      spriteID: 143dee97c1fbdc44cbca89d5ac7e0141
+      internalID: -26871193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_hero_beanMan_6
+      name: "\u80E1\u5B50"
       rect:
         serializedVersion: 2
         x: 470
@@ -220,14 +220,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91bd9b956fe489c45967e8c1a79a0af0
-      internalID: -703924000
+      spriteID: b2807c6b933d40d439e8ba7c66e27576
+      internalID: -1369729713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_hero_beanMan_7
+      name: "\u5E3D\u5B50"
       rect:
         serializedVersion: 2
         x: 772
@@ -241,14 +241,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2ba5da77319e4249812cedb3fa88c2f
-      internalID: -2114520259
+      spriteID: 3f406d546687dac499451b281c8b4bdb
+      internalID: 331236181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_hero_beanMan_8
+      name: "\u53F3\u811A"
       rect:
         serializedVersion: 2
         x: 63
@@ -262,14 +262,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 745c04398223faa4680007e2179b923c
-      internalID: -457182804
+      spriteID: b1092ab331199044798106514c9e9e76
+      internalID: -438808821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_hero_beanMan_9
+      name: "\u5DE6\u811A"
       rect:
         serializedVersion: 2
         x: 251
@@ -283,8 +283,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0fe76ed57dc7dd4c81828cd7144b3df
-      internalID: -534071688
+      spriteID: 98eb6805398aefa4091a5720fb0f75bb
+      internalID: -838782055
       vertices: []
       indices: 
       edges: []
@@ -293,23 +293,23 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      char_hero_beanMan_0: 1686348565
-      char_hero_beanMan_9: -534071688
-      char_hero_beanMan_6: -703924000
-      char_hero_beanMan_7: -2114520259
-      char_hero_beanMan_1: 53779470
-      char_hero_beanMan_5: 365836833
-      char_hero_beanMan_3: -72562292
-      char_hero_beanMan_8: -457182804
-      char_hero_beanMan_4: 587808574
-      char_hero_beanMan_2: -1465542024
+      "\u53F3\u624B": 1651333874
+      "\u5DE6\u773C": 1280110744
+      "\u53F3\u773C": 1904190801
+      "\u5DE6\u811A": -838782055
+      "\u5E3D\u5B50": 331236181
+      "\u53F3\u811A": -438808821
+      "\u5DE6\u624B": -26871193
+      "\u80E1\u5B50": -1369729713
+      "\u8EAB\u4F53": -1575938178
+      "\u5927\u70AE": 1388592590
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
