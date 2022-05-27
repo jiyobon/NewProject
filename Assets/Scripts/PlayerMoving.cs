@@ -13,12 +13,15 @@ public class PlayerMoving : MonoBehaviour
     public bool bFaceRight = true;
     [HideInInspector]
     public bool bJump = false;
-    public float JumpForce = 300;
+    public float JumpForce = 100;
+    
     private Transform mGroundCheck;
+    Animator anim;
     void Start()
     {
         HeroBody = GetComponent<Rigidbody2D>();
         mGroundCheck = transform.Find("GroundCheck");
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -36,6 +39,8 @@ public class PlayerMoving : MonoBehaviour
                                             HeroBody.velocity.y);
         }
 
+        anim.SetFloat("Speed", Mathf.Abs(h));
+
         if(h>0 && !bFaceRight)
         {
             flip();
@@ -44,7 +49,7 @@ public class PlayerMoving : MonoBehaviour
         {
             flip();
         }
-
+        //射线检测是通过按位与的操作进行而不是通过“==”操作进行判断
         if (Physics2D.Linecast(transform.position, mGroundCheck.position,
                                 1<<LayerMask.NameToLayer("Ground")))
         {
@@ -54,6 +59,7 @@ public class PlayerMoving : MonoBehaviour
             }
         }
 
+        Debug.DrawLine(transform.position, mGroundCheck.position, Color.red);
     }
 
     private void FixedUpdate()
@@ -62,6 +68,7 @@ public class PlayerMoving : MonoBehaviour
         {
             HeroBody.AddForce(Vector2.up * JumpForce);
             bJump = false;
+            anim.SetTrigger("Jump");
         }
     }
 
